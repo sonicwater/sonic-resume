@@ -1,13 +1,13 @@
 <template>
 	<footer>
 		<el-row>
-	  		<el-col :span="6">
+	  		<el-col :span="4">
 				&nbsp;
 	  		</el-col>
-	  		<el-col :span="12" class="footer">
-	  			footer
+	  		<el-col :span="16" class="copyright">
+	  			<p> Copyright © 2018 <a href="#">Sonic</a></p>
 	  		</el-col>
-	  		<el-col :span="6" id="el-menu-login">
+	  		<el-col :span="4" id="el-menu-login">
 				&nbsp;
 	  		</el-col>
 		</el-row>
@@ -28,15 +28,7 @@
 	    }
 	}
 </script>
-<style>
-	.el-menu--horizontal .el-submenu__title:hover {
-    	background-color:#20A0FF;
-	}
-	.el-menu--horizontal .el-submenu .el-submenu__icon-arrow{
-		color:#fff;
-	}
-</style>
 <style scoped>
-	footer{    position: fixed; bottom: 0; width: 100%;background: #1D8CE0;}
-	.footer{text-align: center;}
+	.copyright { margin-top: 30px; margin-bottom: 20px;border-top: 2px solid #46494f;text-align: center;padding: 20px 0;}
+	.copyright p {margin-bottom: 10px;font-size: 12px;}
 </style>
