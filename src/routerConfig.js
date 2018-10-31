@@ -1,11 +1,15 @@
-import Home from './components/Home.vue';
+import Main from './components/Main.vue';
+import Home from './components/pages/home.vue';
 
 export default{
     //mode:'history',
     routes:[
 	    {
             path:'/', 
-            component:Home
+            component:Main,
+            children:[
+                {path:'/', component:Home}
+            ]
         },
     	
         

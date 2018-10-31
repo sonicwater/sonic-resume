@@ -1,8 +1,8 @@
 <template>
-    <div id="app">
+    <div>
         <Header></Header>
-        <el-row class="tac">
-            <el-col :span="24" class="ContentRight">
+        <el-row>
+            <el-col :span="24">
                 <router-view></router-view>
             </el-col>
         </el-row>
@@ -13,7 +13,7 @@
 	import Header from './Header.vue';
 	import Footer from './Footer.vue';
     export default{
-    	name: 'home',
+    	name: 'Main',
         data() {
             return{
                 
