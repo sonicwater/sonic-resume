@@ -1,6 +1,9 @@
 import Main from './components/Main.vue';
 import Home from './components/pages/home.vue';
 import Skill from './components/pages/skill.vue';
+import Work from './components/pages/work.vue';
+import Project from './components/pages/project.vue';
+import Edu from './components/pages/edu.vue';
 
 export default{
     //mode:'history',
@@ -11,15 +14,11 @@ export default{
             children:[
                 {path:'/', component:Home},
                 {path:'/skill', component:Skill},
-                {path:'/project', component:Skill},
-                {path:'/edu', component:Skill},
-                {path:'/contact', component:Skill}
+                {path:'/work', component:Work},
+                {path:'/project', component:Project},
+                {path:'/edu', component:Edu}
             ]
         },
-    	
-        
-        
-        
         {path:'*', redirect:'/'}
     ]
 }

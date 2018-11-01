@@ -68,11 +68,15 @@
 	        	menuData : [
 	        		{
 	        			link : "/",
-	        			text : "首页"
+	        			text : "简介"
 	        		}, 
 	        		{
 	        			link : "/skill",
 	        			text : "技术栈"
+	        		},
+	        		{
+	        			link : "/work",
+	        			text : "工作经历"
 	        		},
 	        		{
 	        			link : "/project",
@@ -81,10 +85,6 @@
 	        		{
 	        			link : "/edu",
 	        			text : "教育经历"
-	        		},
-	        		{
-	        			link : "/contact",
-	        			text : "联系我"
 	        		}
 	        	]
 	        }
@@ -125,6 +125,8 @@
 		a.active {background: #4e91c9;color: #fff;}
 	}
 
+	.router-link-exact-active{ background: #3cf; color:#fff; }
+
 	.social-w3licon {margin-top: 1em;}
 	.menu {
 		float: right;
@@ -147,8 +149,11 @@
 		nav.main-navigation-mobile.active {margin-top: 20px;text-align: left;height: auto;-webkit-transition: 0.8s all;-moz-transition: 0.8s all;-o-transition: 0.8s all;-ms-transition: 0.8s all;transition: 0.8s all;overflow:auto;opacity: 1;display: block;}
 		ul.main-menu {
 			background: #26282c;padding: 10px 0;
-			li {display: block;margin-left: 0;margin-right: 0;margin-bottom: 10px;margin-top: 10px;}
-			li a.active {background: inherit;color: #4e91c9;}
+			li {
+				display: block;margin-left: 0;margin-right: 0;margin-bottom: 10px;margin-top: 10px;
+				a{display: block;width: 80%;margin: 0 auto;}
+				a.active {background: inherit;color: #4e91c9;}
+			}
 		}
 	}
 
