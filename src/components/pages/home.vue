@@ -29,7 +29,7 @@
                         <h2 class="sub-title">{{title2}}</h2>
                         <div class="part-2-content clearfix">
                             <div class="part-2-photo">
-                                <img src="../../static/images/WechatIMG16.jpg" width="100%" alt="work" />
+                                <img src="https://github.com/sonicwater/sonic-resume/blob/master/src/static/images/WechatIMG16.jpg?raw=true" width="100%" alt="work" />
                             </div>
                             <div class="part-2-dec">
                                 <dl>
