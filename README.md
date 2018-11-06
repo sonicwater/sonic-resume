@@ -4,6 +4,8 @@
 
 ## Build Setup
 
+> Demo : [https://sonicwater.github.io/sonic-resume/](https://sonicwater.github.io/sonic-resume/)
+
 ``` bash
 # install dependencies
 npm install
